@@ -1,39 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="created by Manuel">
-    <title>Practica getelement</title>
-</head>
-
-<body>
-    <p>Universidad Tecnológica de Durango</p>
-    <p>Nombre del alumno:Manuel Alberto Castro Torres.</p>
-    <span>Carrera:</span>
-    <br>
-    <span>Moldelo DOM</span>
-    <p id="parrafo">Tecnológias de la Información</p>
-    
-    <script>
-        let parrafos = document.getElementsByTagName('p');
-        console.log(parrafos.length);
-    </script>
-    
-    <script>
-        var acceder_parrafo = document.getElementById('parrafo');
-        acceder_parrafo.innerHTML = "Mecatronica";
-    </script>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi pagina de prueba</title>
+  </head>
+  <body>
+    <img src="https://t3.ftcdn.net/jpg/01/09/11/94/360_F_109119439_xTLN8PRSp6fdSuoMYSyKDOQmah4IzJsn.jpg" alt="Mi imagen de prueba">
 
     <script>
         console.debug("Este es un mensaje del debug");
         console.warn("Este es un aviso");
+        console.error("Este es un error favor de verificar.");
+        console.info("Mas informacion");
     </script>
-
-
-
-</body>
-
+  </body>
 </html>
